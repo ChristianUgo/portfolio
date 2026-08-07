@@ -514,6 +514,12 @@ h3 {
   width: 22px;
   height: 22px;
   color: #8247e5;
+  transition: color 180ms ease;
+}
+
+.project-link.polygon-link:hover svg,
+.project-link.polygon-link:focus-visible svg {
+  color: #b794f6;
 }
 
 .project-link::after {
