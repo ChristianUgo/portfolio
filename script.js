@@ -11,7 +11,14 @@ form?.addEventListener("submit", (event) => {
   const message = String(data.get("message") || "").trim();
 
   if (!name || !email || !opportunity || !message) {
-    statusEl.textContent = "Please complete all fields before preparing the message.";
+    statusEl.textContent = "Please complete all fields before sending your message.";
+    return;
+  }
+
+  const emailIsValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!emailIsValid) {
+    statusEl.textContent = "Please enter a valid email address.";
+    form.elements.email.focus();
     return;
   }
 
@@ -20,6 +27,6 @@ form?.addEventListener("submit", (event) => {
     `Hello Ugo,\n\nMy name is ${name}.\n\nOpportunity type: ${opportunity}\nContact email: ${email}\n\n${message}`
   );
 
-  statusEl.textContent = "Opening your email app with the prepared message.";
-  window.location.href = `mailto:christianugo4@yahoo.com?subject=${subject}&body=${body}`;
+  statusEl.textContent = "Opening your email app. Please press Send there to complete your message.";
+  window.location.href = `mailto:christianugo4@gmail.com?subject=${subject}&body=${body}`;
 });
