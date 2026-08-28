@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=7" />
+    <link rel="stylesheet" href="styles.css?v=19" />
   </head>
   <body>
     <svg class="icon-sprite" aria-hidden="true">
@@ -24,6 +24,9 @@
       <symbol id="icon-website" viewBox="0 0 24 24">
         <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 9h-3.08a15.7 15.7 0 0 0-1.2-5.02A8.03 8.03 0 0 1 18.93 11ZM12 4.04c.74 1.08 1.47 3.5 1.69 6.96h-3.38c.22-3.46.95-5.88 1.69-6.96ZM4.26 13h3.9c.1 1.85.4 3.57.86 5.02A8.02 8.02 0 0 1 4.26 13Zm3.9-2h-3.9a8.02 8.02 0 0 1 4.76-5.02A15.7 15.7 0 0 0 8.16 11ZM12 19.96c-.74-1.08-1.47-3.5-1.69-6.96h3.38c-.22 3.46-.95 5.88-1.69 6.96Zm2.98-1.94c.46-1.45.76-3.17.86-5.02h3.9a8.02 8.02 0 0 1-4.76 5.02Z" />
       </symbol>
+      <symbol id="icon-polygon" viewBox="0 0 24 24">
+        <path d="M17.3 7.04a2.22 2.22 0 0 0-2.22 0l-3.06 1.78-2.08-1.2a2.22 2.22 0 0 0-2.22 0L4.5 9.5a2.22 2.22 0 0 0-1.1 1.93v3.66c0 .79.42 1.51 1.1 1.91l3.22 1.87a2.22 2.22 0 0 0 2.22 0l3.06-1.78 2.08 1.2a2.22 2.22 0 0 0 2.22 0l3.22-1.87a2.22 2.22 0 0 0 1.1-1.93v-3.66c0-.79-.42-1.51-1.1-1.91L17.3 7.04Zm-1.12 1.93 3.22 1.87v3.66l-3.22 1.87-2.08-1.2v-3.66l2.08-1.2Zm-7.34.58 2.08 1.2v3.66l-2.08 1.2-3.22-1.87v-3.66l3.22-1.87Zm3.18 3.2 2.08-1.2v2.4l-2.08 1.2-2.08-1.2v-2.4Z" />
+      </symbol>
     </svg>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Ugo Christian Chiamaka home">
@@ -31,7 +34,8 @@
         <span>Ugo Christian</span>
       </a>
       <nav class="main-nav" aria-label="Main navigation">
-        <a href="#projects">Projects</a>
+        <a href="#defi-work">DeFi Project</a>
+        <a href="#projects">Other Web3 Project</a>
         <a href="#skills">Skills</a>
         <a href="#security">Security</a>
         <a href="#contact">Contact</a>
@@ -44,40 +48,38 @@
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-overlay" aria-hidden="true"></div>
         <div class="hero-inner">
-          <p class="eyebrow">Blockchain Engineer · Web3 Protocol Builder</p>
-          <h1 id="hero-title">I build Web3 and EVM protocols that move DeFi value.</h1>
+          <p class="eyebrow hero-eyebrow">DeFi Protocol Engineer with Finance &amp; Investment Expertise</p>
+          <h1 id="hero-title">I engineer<br /><span>financial logic</span><br />on-chain.</h1>
           <p class="hero-copy">
-            Blockchain Software Engineer focused on EVM-compatible protocols, secure smart contracts,
-            cross-chain liquidity, and production-grade DeFi architecture.
+            I design EVM protocols where collateral, liquidity, incentives, and smart-contract security
+            must work as one system. <strong>Solidity depth, finance-informed judgment.</strong>
           </p>
           <div class="hero-actions" aria-label="Primary portfolio actions">
-            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button primary" href="#defi-work">Explore DeFi Work</a>
             <a class="button secondary" href="#contact">Contact</a>
-          </div>
-          <div class="hero-stats" aria-label="Profile highlights">
-            <div>
-              <strong>6</strong>
-              <span>Web3 project tracks</span>
-            </div>
-            <div>
-              <strong>EVM</strong>
-              <span>Solidity protocol focus</span>
-            </div>
-            <div>
-              <strong>Foundry</strong>
-              <span>Fuzz + invariant testing</span>
-            </div>
           </div>
         </div>
       </section>
 
-      <section class="intro-band" aria-label="Role targets">
-        <div class="section-inner role-strip">
-          <span>Solidity Engineer</span>
-          <span>DeFi Protocol Engineer</span>
-          <span>Smart Contract Developer</span>
-          <span>Security / Testing Engineer</span>
-          <span>Full-Stack Web3 Engineer</span>
+      <section class="protocol-strip" aria-label="DeFi engineering focus areas">
+        <div class="section-inner protocol-strip-inner">
+          <div>
+            <strong>DeFi</strong>
+            <span>Protocol Architecture</span>
+          </div>
+          <div>
+            <strong>Fuzz</strong>
+            <span>Stateful Testing</span>
+          </div>
+          <div>
+            <strong>Risk</strong>
+            <span>Finance-Informed Logic</span>
+          </div>
+          <div>
+            <strong>EVM</strong>
+            <span>End-to-End Delivery</span>
+          </div>
+          <p>DeFi protocols secured by testing and informed by finance.</p>
         </div>
       </section>
 
@@ -127,42 +129,43 @@
         </div>
       </section>
 
-      <section class="section project-section" id="projects" aria-labelledby="projects-title">
+      <section class="section defi-section" id="defi-work" aria-labelledby="defi-title">
         <div class="section-inner split-heading">
           <div>
-            <p class="eyebrow">Project Experience</p>
-            <h2 id="projects-title">Protocol work presented as employer-ready case studies.</h2>
+            <p class="eyebrow">Core DeFi Project</p>
+            <h2 id="defi-title">DeFi systems built around risk, liquidity, and secure smart contracts.</h2>
           </div>
           <p>
-            Each project shows a different part of the blockchain stack: contract architecture, DeFi mechanics,
-            wallet integration, backend support, analytics, and security testing.
+            These projects focus on the parts of DeFi that matter in production: collateral movement,
+            pricing assumptions, liquidation paths, vault accounting, tokenized claims, liquidity design,
+            and tests that challenge the protocol before users do.
           </p>
         </div>
 
-        <div class="section-inner project-grid">
+        <div class="section-inner project-grid defi-project-grid">
           <article class="project-card featured">
             <div class="project-meta">
-              <span>DeFi Protocol</span>
-              <span>Ethereum</span>
+              <span>Shipped Protocol Build</span>
+              <span>Foundry / EVM</span>
             </div>
-            <h3>Collateralized Debt Position Lending Protocol</h3>
+            <h3>Nexus StableCoin Protocol</h3>
             <p>
-              Non-custodial lending architecture with collateral vaults, over-collateralized stablecoin minting,
-              health factor monitoring, and liquidation incentives.
+              An over-collateralized decentralized stablecoin system engineered around explicit solvency
+              constraints, oracle-aware collateral valuation, liquidation logic, and adversarial tests.
             </p>
             <p>
-              I designed borrower solvency logic, risk-aware collateral accounting, and liquidation routines
-              that help recover unhealthy positions while protecting protocol health. I also built the
-              supporting Next.js dashboard with MetaMask and WalletConnect flows.
+              Stablecoin systems fail when price assumptions, collateral accounting, or liquidation paths break
+              under adverse conditions. The design must remain understandable under stress, not only during
+              normal operation.
             </p>
             <div class="tags">
-              <span>Solidity</span><span>CDP</span><span>Stablecoin</span><span>Next.js</span>
+              <span>Solidity</span><span>Foundry</span><span>Chainlink</span><span>Stablecoin</span><span>Invariant Testing</span>
             </div>
-            <div class="project-actions" aria-label="Collateralized Debt Position Lending Protocol links">
-              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Collateralized Debt Position Lending Protocol">
+            <div class="project-actions" aria-label="Nexus StableCoin Protocol links">
+              <a class="project-link icon-link" href="https://github.com/ChristianUgo/Nexus-StableCoin-Protocol" target="_blank" rel="noreferrer" aria-label="Open Nexus StableCoin Protocol GitHub repository">
                 <svg aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
-              <a class="project-link icon-link" href="#" aria-label="Live website link coming soon for Collateralized Debt Position Lending Protocol">
+              <a class="project-link icon-link" href="https://nexus.christianugo.com" target="_blank" rel="noreferrer" aria-label="Open Nexus StableCoin Protocol live website">
                 <svg aria-hidden="true"><use href="#icon-website"></use></svg>
               </a>
             </div>
@@ -170,28 +173,111 @@
 
           <article class="project-card">
             <div class="project-meta">
-              <span>Smart Contracts</span>
-              <span>Foundry</span>
+              <span>Aegis_01</span>
+              <span>Isolated Lending Protocol</span>
             </div>
-            <h3>Algorithmic Decentralized Stablecoin ($DSC)</h3>
-            <p>Over-collateralized stablecoin system with Chainlink pricing, liquidation routines, and protocol health checks.</p>
+            <h3>Aegis Bank</h3>
             <p>
-              I integrated Chainlink Price Feeds for tamper-resistant asset valuation and built Foundry
-              invariant and stateful fuzz tests to challenge the protocol's solvency assumptions.
+              A non-custodial lending market exploring isolated risk pools, utilization-based interest rates,
+              health factors, oracle validation, liquidation incentives, and bad-debt containment.
             </p>
             <div class="tags">
-              <span>Foundry</span><span>Chainlink</span><span>Invariant Tests</span>
+              <span>Solidity</span><span>Foundry</span><span>ERC-4626</span><span>Chainlink</span>
             </div>
-            <div class="project-actions" aria-label="Algorithmic Decentralized Stablecoin links">
-              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Algorithmic Decentralized Stablecoin">
+            <div class="project-actions" aria-label="Aegis Bank links">
+              <a class="project-link icon-link" href="https://github.com/ChristianUgo/Decentralized-Banking" target="_blank" rel="noreferrer" aria-label="Open the Aegis Bank GitHub repository">
                 <svg aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
-              <a class="project-link icon-link" href="#" aria-label="Live website link coming soon for Algorithmic Decentralized Stablecoin">
+              <a class="project-link icon-link" href="https://aegisbank.christianugo.com" target="_blank" rel="noreferrer" aria-label="Open the live Aegis Bank application">
                 <svg aria-hidden="true"><use href="#icon-website"></use></svg>
               </a>
             </div>
           </article>
 
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Credit_02</span>
+              <span>RWA Credit and Cash-Flow Protocol</span>
+            </div>
+            <h3>Tokenized Private Credit</h3>
+            <p>
+              A permission-aware credit protocol for originating loans, tokenizing lender claims, accruing
+              interest, processing repayments, and representing default or recovery states on-chain.
+            </p>
+            <div class="tags">
+              <span>RWA</span><span>Credit Risk</span><span>ERC-4626</span>
+            </div>
+            <div class="project-actions" aria-label="Tokenized Private Credit links">
+              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Tokenized Private Credit">
+                <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+              </a>
+              <a class="project-link icon-link" href="#" aria-label="Live interface link coming soon for Tokenized Private Credit">
+                <svg aria-hidden="true"><use href="#icon-website"></use></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>AMM_03</span>
+              <span>Uniswap-Inspired Liquidity Engine</span>
+            </div>
+            <h3>Orbis AMM Lab</h3>
+            <p>
+              A concentrated-liquidity AMM study paired with a risk simulator, exploring price curves, LP fee
+              economics, slippage, impermanent loss, and adverse market conditions.
+            </p>
+            <div class="tags">
+              <span>AMM</span><span>Liquidity</span><span>Simulation</span>
+            </div>
+            <div class="project-actions" aria-label="Orbis AMM Lab links">
+              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Orbis AMM Lab">
+                <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+              </a>
+              <a class="project-link icon-link" href="#" aria-label="Live interface link coming soon for Orbis AMM Lab">
+                <svg aria-hidden="true"><use href="#icon-website"></use></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Stake_04</span>
+              <span>Share Accounting and Withdrawal Liquidity</span>
+            </div>
+            <h3>Liquid Staking Vault</h3>
+            <p>
+              A liquid-staking architecture focused on exchange-rate accounting, validator allocation, reward
+              accrual, withdrawal queues, slashing exposure, and liquidity under stressed redemption demand.
+            </p>
+            <div class="tags">
+              <span>Staking</span><span>Vaults</span><span>Risk Model</span>
+            </div>
+            <div class="project-actions" aria-label="Liquid Staking Vault links">
+              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Liquid Staking Vault">
+                <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+              </a>
+              <a class="project-link icon-link" href="#" aria-label="Live interface link coming soon for Liquid Staking Vault">
+                <svg aria-hidden="true"><use href="#icon-website"></use></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Broader Blockchain Delivery</p>
+            <h2 id="projects-title">Other shipped Web3 products beyond DeFi.</h2>
+          </div>
+          <p>
+            These projects are not pure DeFi protocol work, but they show production delivery across token
+            launches, marketplaces, NFT flows, wallet UX, metadata storage, and event-driven dApps.
+          </p>
+        </div>
+
+        <div class="section-inner project-grid">
           <article class="project-card">
             <div class="project-meta">
               <span>ICO Marketplace</span>
@@ -203,16 +289,14 @@
               and running the complete on-chain workflow on Polygon Amoy.
             </p>
             <p>
-              I integrated MetaMask and Ethers.js for wallet connection, token purchases, transfers,
-              withdrawals, inventory tracking, and network validation. I also implemented secure token-logo
-              uploads to IPFS through a server-side Pinata API, added automated tests for core workflows,
-              and deployed the tested application on Vercel with a custom domain.
+              Integrated MetaMask and Ethers.js for wallet transactions and network validation, secured token-logo
+              uploads through a server-side Pinata API, and tested the core workflows before deployment on Vercel.
             </p>
             <div class="tags">
               <span>Next.js</span><span>Solidity</span><span>Ethers.js</span><span>MetaMask</span><span>Pinata/IPFS</span><span>Hardhat</span>
             </div>
             <div class="project-actions" aria-label="Crypto ICO Marketplace and ERC-20 Token Launchpad links">
-              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Crypto ICO Marketplace and ERC-20 Token Launchpad">
+              <a class="project-link icon-link" href="https://github.com/ChristianUgo/crypto-ico-marketplace" target="_blank" rel="noreferrer" aria-label="Open GitHub repository for Crypto ICO Marketplace and ERC-20 Token Launchpad">
                 <svg aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
               <a class="project-link icon-link" href="https://ico.christianugo.com" target="_blank" rel="noreferrer" aria-label="Open live website for Crypto ICO Marketplace and ERC-20 Token Launchpad">
@@ -220,31 +304,36 @@
               </a>
             </div>
           </article>
-
           <article class="project-card">
             <div class="project-meta">
-              <span>Marketplace</span>
-              <span>Polygon</span>
+              <span>Tokenized Ownership</span>
+              <span>Polygon Amoy</span>
             </div>
-            <h3>Blockchain Real-Estate Marketplace dApp</h3>
-            <p>Peer-to-peer property marketplace with Solidity transaction flows, decentralized media storage, and wallet onboarding.</p>
+            <h3>Unlock Estate — Web3 Real-Estate Marketplace</h3>
             <p>
-              I connected Polygon smart contracts to a dynamic Next.js frontend and integrated Pinata IPFS
-              gateways so property media and metadata could be stored through decentralized infrastructure.
+              Full-stack decentralized real-estate marketplace built with Next.js, Solidity, Hardhat,
+              MetaMask, Pinata/IPFS, and Ethers.js, with smart contracts deployed on the Polygon Amoy testnet.
+            </p>
+            <p>
+              The platform supports property listing, purchasing, ownership transfer, price updates, listing
+              fees, and on-chain reviews. I connected the contract layer to a responsive Next.js frontend and
+              integrated Pinata/IPFS so property media and metadata can be handled through decentralized storage.
             </p>
             <div class="tags">
-              <span>Polygon</span><span>IPFS</span><span>Pinata</span>
+              <span>Next.js</span><span>Solidity</span><span>Hardhat</span><span>MetaMask</span><span>Pinata/IPFS</span><span>Polygon Amoy</span>
             </div>
-            <div class="project-actions" aria-label="Blockchain Real-Estate Marketplace dApp links">
-              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Blockchain Real-Estate Marketplace dApp">
+            <div class="project-actions" aria-label="Unlock Estate Web3 Real-Estate Marketplace links">
+              <a class="project-link icon-link" href="https://github.com/ChristianUgo/unlock-estate-dapp" target="_blank" rel="noreferrer" aria-label="Open the Unlock Estate GitHub repository">
                 <svg aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
-              <a class="project-link icon-link" href="#" aria-label="Live website link coming soon for Blockchain Real-Estate Marketplace dApp">
+              <a class="project-link icon-link" href="https://estate.christianugo.com" target="_blank" rel="noreferrer" aria-label="Open the live Unlock Estate application">
                 <svg aria-hidden="true"><use href="#icon-website"></use></svg>
+              </a>
+              <a class="project-link icon-link polygon-link" href="https://amoy.polygonscan.com/address/0x29A626d5499EA8f1904E2bf8EFF2C0Ff4EF05D5B" target="_blank" rel="noreferrer" aria-label="View the Unlock Estate smart contract on PolygonScan" title="View contract on PolygonScan">
+                <svg aria-hidden="true"><use href="#icon-polygon"></use></svg>
               </a>
             </div>
           </article>
-
           <article class="project-card">
             <div class="project-meta">
               <span>NFT Marketplace</span>
@@ -266,6 +355,9 @@
               <a class="project-link icon-link" href="https://artefact-nfts-marketplace-v2.vercel.app" target="_blank" rel="noreferrer" aria-label="Open the live Artefact NFT Marketplace">
                 <svg aria-hidden="true"><use href="#icon-website"></use></svg>
               </a>
+              <a class="project-link icon-link polygon-link" href="https://amoy.polygonscan.com/address/0x82C62325580D1Aad52f960b2b8c91f4fACD4Ab60" target="_blank" rel="noreferrer" aria-label="View the Artefact NFT Marketplace smart contract on PolygonScan" title="View contract on PolygonScan">
+                <svg aria-hidden="true"><use href="#icon-polygon"></use></svg>
+              </a>
             </div>
           </article>
 
@@ -284,12 +376,11 @@
               <span>Access Control</span><span>Events</span><span>Ethers.js</span>
             </div>
             <div class="project-actions" aria-label="Supply Chain and Logistics Tracking Protocol links">
-              <a class="project-link icon-link" href="#" aria-label="GitHub link coming soon for Supply Chain and Logistics Tracking Protocol">
+              <a class="project-link icon-link" href="https://github.com/ChristianUgo/blockchain-supply-chain-dapp" target="_blank" rel="noreferrer" aria-label="Open GitHub repository for Supply Chain and Logistics Tracking Protocol">
                 <svg aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
-              <a class="project-link icon-link" href="#" aria-label="Live website link coming soon for Supply Chain and Logistics Tracking Protocol">
-                <svg aria-hidden="true"><use href="#icon-website"></use></svg>
-              </a>
+              <a class="project-link" href="https://supply-v1.christianugo.com" target="_blank" rel="noreferrer">Live V1</a>
+              <a class="project-link" href="https://supply-v2.christianugo.com" target="_blank" rel="noreferrer">Live V2</a>
             </div>
           </article>
         </div>
@@ -336,8 +427,8 @@
         </div>
         <div class="section-inner research-grid">
           <article>
-            <h3>DeFi Lending Architecture</h3>
-            <p>CDPs, liquidation engines, health factor design, stablecoin solvency, AMM integration, and MEV-aware liquidation considerations.</p>
+            <h3>Tokenized Ownership</h3>
+            <p>RWA ownership claims, property transfer logic, ERC-based asset representation, permission boundaries, and finance-aware settlement flows.</p>
           </article>
           <article>
             <h3>Cross-Chain Interoperability</h3>
@@ -353,30 +444,39 @@
       <section class="section education-band" aria-labelledby="education-title">
         <div class="section-inner education-layout">
           <div>
-            <p class="eyebrow">Education</p>
-            <h2 id="education-title">Finance and engineering foundations.</h2>
+            <p class="eyebrow">Finance × DeFi Expertise</p>
+            <h2 id="education-title">Where finance and investment meet DeFi protocol engineering.</h2>
           </div>
           <div class="education-items">
             <p><strong>MSc Finance and Investment</strong><span>University of Wales, Wales, UK | 2013</span></p>
-            <p><strong>BEng Chemical Engineering</strong><span>University of Nottingham, Nottingham, UK | 2011</span></p>
+            <p>
+              <strong>Finance-informed DeFi judgment</strong>
+              <span>Applying finance and investment judgment to collateral design, cash-flow logic, incentives, liquidity, solvency, leverage, and risk transfer in smart contracts.</span>
+            </p>
           </div>
+        </div>
+        <div class="section-inner balance-grid" aria-label="Finance concepts applied to protocol engineering">
+          <div><strong>Solvency</strong><p>Keep liabilities covered under realistic collateral, oracle, and price-stress assumptions.</p></div>
+          <div><strong>Liquidity</strong><p>Separate recorded protocol value from available exits, withdrawals, and liquidation capacity.</p></div>
+          <div><strong>Incentives</strong><p>Model how borrowers, lenders, and liquidators behave when pressure or profit appears.</p></div>
+          <div><strong>Risk controls</strong><p>Encode limits, permissions, circuit breakers, and failure containment directly into protocol logic.</p></div>
         </div>
       </section>
 
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="section-inner contact-layout">
           <div class="contact-copy">
-            <p class="eyebrow">Contact</p>
-            <h2 id="contact-title">Let’s talk about blockchain roles, protocol work, or Web3 product delivery.</h2>
+            <p class="eyebrow">Open Channel</p>
+            <h2 id="contact-title">Building financial infrastructure on-chain?</h2>
             <p>
-              I’m open to blockchain developer, Solidity engineer, DeFi protocol, smart contract testing, and
-              full-stack Web3 opportunities.
+              I’m open to DeFi protocol, Solidity, smart-contract testing, RWA tokenization, and full-stack
+              Web3 opportunities with teams that value explicit risk reasoning.
             </p>
 
             <div class="contact-methods" aria-label="Contact methods">
-              <a href="mailto:christianugo4@yahoo.com" aria-label="Email Ugo">
+              <a href="mailto:christianugo4@gmail.com" aria-label="Email Ugo">
                 <span class="placeholder-icon" aria-hidden="true">✉</span>
-                <span>christianugo4@yahoo.com</span>
+                <span>christianugo4@gmail.com</span>
               </a>
               <a href="tel:+2349098843808" aria-label="Call Ugo">
                 <span class="placeholder-icon" aria-hidden="true">☎</span>
@@ -384,14 +484,17 @@
               </a>
             </div>
 
-            <div class="social-row" aria-label="Social links with placeholder URLs">
-              <a href="#" aria-label="GitHub placeholder link" title="GitHub link coming soon">
+            <div class="social-row" aria-label="Website and social links">
+              <a href="https://www.christianugo.com/" target="_blank" rel="noreferrer" aria-label="Visit Christian Ugo's website" title="Website">
+                <span class="social-icon" aria-hidden="true">WEB</span>
+              </a>
+              <a href="https://github.com/ChristianUgo" target="_blank" rel="noreferrer" aria-label="Visit Christian Ugo on GitHub" title="GitHub">
                 <span class="social-icon" aria-hidden="true">GH</span>
               </a>
-              <a href="#" aria-label="LinkedIn placeholder link" title="LinkedIn link coming soon">
+              <a href="https://www.linkedin.com/in/christian-ugo" target="_blank" rel="noreferrer" aria-label="Visit Christian Ugo on LinkedIn" title="LinkedIn">
                 <span class="social-icon" aria-hidden="true">IN</span>
               </a>
-              <a href="#" aria-label="Email placeholder link" title="Email icon placeholder">
+              <a href="mailto:christianugo4@gmail.com" aria-label="Email Christian Ugo" title="Email">
                 <span class="social-icon" aria-hidden="true">@</span>
               </a>
             </div>
@@ -421,7 +524,7 @@
               <span>Message</span>
               <textarea name="message" rows="5" required></textarea>
             </label>
-            <button class="button primary" type="submit">Prepare Message</button>
+            <button class="button primary" type="submit">Send Email</button>
             <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
